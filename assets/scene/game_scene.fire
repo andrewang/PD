@@ -809,10 +809,13 @@
       "__id__": 20
     },
     "_enabled": true,
-    "player": null,
+    "player": {
+      "__id__": 14
+    },
     "thumb": {
       "__id__": 21
-    }
+    },
+    "velocity": 100
   },
   {
     "__type__": "cc.Node",
