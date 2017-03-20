@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "fd428fa8-ecc1-46c7-ab02-6d60a6b593b5",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "fps_images-ipadhd": {
+      "ver": "1.0.3",
+      "uuid": "a60c43d4-dc2b-48d4-946b-c064dfd4618a",
+      "rawTextureUuid": "fd428fa8-ecc1-46c7-ab02-6d60a6b593b5",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -108,
+      "offsetY": -16,
+      "trimX": 7,
+      "trimY": 32,
+      "width": 282,
+      "height": 32,
+      "rawWidth": 512,
+      "rawHeight": 64,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

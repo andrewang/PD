@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "robot_idle",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.55,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "2d454488-d038-4074-ab1f-7f5e289edd6d"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "2f5ce032-ff0d-4c7d-854b-66bfc9527de2"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "30c537ad-ccdb-41ea-88a8-321e91f1497d"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "4ef7fc7b-e7a7-432d-932a-e1fe19a3cabf"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "cf82953e-39d5-432a-b1d8-2a041e542a11"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,44 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "robot_knockout",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.4666666666666667,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "ca69b60e-25be-4a3e-98e8-ce3d1baa3ace"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "68a20807-8b00-45ea-b46b-bbaf70484a7b"
+            }
+          },
+          {
+            "frame": 0.2833333333333333,
+            "value": {
+              "__uuid__": "c0d43b77-d2c7-4ae3-92ca-55336d6c6367"
+            }
+          },
+          {
+            "frame": 0.45,
+            "value": {
+              "__uuid__": "319486c8-ca9a-4058-b274-360e7fc72af0"
+            }
+          }
+        ]
+      }
+    },
+    "props": {}
+  },
+  "events": []
+}

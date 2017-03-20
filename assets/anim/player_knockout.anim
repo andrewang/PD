@@ -1,0 +1,50 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "player_knockout",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.35,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "8abe1953-4efa-458c-9ebc-4ad79e78cc79"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "0c828bd4-1a94-4f18-bbf1-c0b78a89d726"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "83c71766-e01d-41b4-aaef-c18be2fc4c67"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "398d78f9-50af-4247-acd2-a2b6ca5d6d15"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "5c92a7bf-29e6-45bc-9855-5466582cd8ea"
+            }
+          }
+        ]
+      }
+    },
+    "props": {}
+  },
+  "events": []
+}
