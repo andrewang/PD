@@ -1,22 +1,50 @@
+
+// var playerFSM = new StateMachine({
+
+//     transitions: [
+//         {name: 'toStart', from: 'none', to: 'idle'},
+//         {name: 'toIdle', from: ['attack', 'walk', 'hurt'], to: 'idle'},
+//         {name: 'toHurt', from: 'idle', to: 'hurt'},
+//         {name: 'toKnockout', from: 'hurt', to: 'knockout'},
+//         {name: 'toWalk', from: 'idle', to: 'walk'},
+//         {name: 'toAttack', from: 'idle', to: 'attack'},
+//         {name: 'toEnd', from: 'knockout', to: 'none'}
+//     ],
+//     methods: {
+//         onWalk: function(angle){
+//             playerFSM.toWalk();
+
+//         },
+//         onIdle: function(){
+
+//         },
+//         onAttack: function(){
+
+//         },
+//         onKnockout: function(){
+
+//         },
+//         onHurt: function(){
+
+//         },
+//         onEnd: function(){
+
+//         }
+//     }
+
+// });
 cc.Class({
     extends: cc.Component,
 
     properties: {
-        // foo: {
-        //    default: null,      // The default value will be used only when the component attaching
-        //                           to a node for the first time
-        //    url: cc.Texture2D,  // optional, default is typeof default
-        //    serializable: true, // optional, default is true
-        //    visible: true,      // optional, default is true
-        //    displayName: 'Foo', // optional
-        //    readonly: false,    // optional, default is false
-        // },
-        // ...
+
     },
 
     // use this for initialization
     onLoad: function () {
-
+        // playerFSM.toStart();
+        this.animMgr = this.node.getComponent('AnimMgr');
+        
     },
 
     // called every frame, uncomment this function to activate update callback
@@ -24,3 +52,7 @@ cc.Class({
 
     // },
 });
+
+// module.exports = {
+//     playerFSM,
+// }

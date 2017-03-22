@@ -1,6 +1,6 @@
 {
   "__type__": "cc.AnimationClip",
-  "_name": "play_attack",
+  "_name": "player_attack",
   "_objFlags": 0,
   "_rawFiles": null,
   "_duration": 0.25,
@@ -33,5 +33,11 @@
       }
     }
   },
-  "events": []
+  "events": [
+    {
+      "frame": 0.23333333333333334,
+      "func": "onIdle",
+      "params": []
+    }
+  ]
 }

@@ -7,31 +7,41 @@ cc.Class({
 
     // use this for initialization
     onLoad: function () {
-        this.animComp = this.getComponent(cc.Animation);
-        this.nodeName = this.node.name;
-        let animState = this.animComp.play('');
-        animState.wrapMode = cc.WrapMode.Loop;
-        animState.repeatCount = Infinity;
+        this.onIdle();
     },
 
     onAttack: function(){
-        this.animComp.play(this.nodeName + '_attack');
+        if(this.animState.name !== 'player_attack'){
+            this.animState = this.animComp.play(this.nodeName + '_attack');
+        }
+        
     },
 
     onIdle: function(){
-        this.animComp.play(this.nodeName + '_idle');
+        this.animComp = this.getComponent(cc.Animation);
+        this.nodeName = this.node.name;
+        
+        this.animState = this.animComp.play(this.nodeName + '_idle');
+        this.animState.wrapMode = cc.WrapMode.Loop;
+        this.animState.repeatCount = Infinity;
     },
 
     onWalk: function(){
-        this.animComp.play(this.nodeName + '_walk');
+        if(this.animState.name !== 'player_walk'){
+            
+            this.animState = this.animComp.play(this.nodeName + '_walk');
+            this.animState.wrapMode = cc.WrapMode.Loop;
+            this.animState.repeatCount = Infinity;
+        }
+        
     },
 
     onKnockout: function(){
-        this.animComp.play(this.nodeName + '_knockout');
+        this.animState = this.animComp.play(this.nodeName + '_knockout');
     },
 
     onHurt: function(){
-        this.animComp.play(this.nodeName + '_hurt');
+        this.animState = this.animComp.play(this.nodeName + '_hurt');
     },
     // called every frame, uncomment this function to activate update callback
     // update: function (dt) {
